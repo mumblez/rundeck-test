@@ -16,6 +16,7 @@
         echo "Hello @option.name@"
 
         echo "Goodbye"
+        echo "remote change..."
     keepgoing: false
     strategy: node-first
 
