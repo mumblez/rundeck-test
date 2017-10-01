@@ -1,0 +1,12 @@
+- description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: bla
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 'bla'
+    keepgoing: false
+    strategy: node-first
+
