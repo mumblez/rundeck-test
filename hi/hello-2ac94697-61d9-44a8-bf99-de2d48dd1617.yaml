@@ -1,0 +1,21 @@
+- description: hello world
+  executionEnabled: true
+  group: hi
+  id: 2ac94697-61d9-44a8-bf99-de2d48dd1617
+  loglevel: INFO
+  name: hello
+  nodeFilterEditable: false
+  options:
+  - name: name
+    value: bob
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: |-
+        #!/bin/bash
+
+        echo "Hello @option.name@"
+    keepgoing: false
+    strategy: node-first
+  uuid: 2ac94697-61d9-44a8-bf99-de2d48dd1617
+
