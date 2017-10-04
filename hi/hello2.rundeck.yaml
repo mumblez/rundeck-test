@@ -3,6 +3,7 @@
   group: bla
   loglevel: INFO
   name: hello
+  timeout: 5m
   nodeFilterEditable: false
   options:
   - name: name
