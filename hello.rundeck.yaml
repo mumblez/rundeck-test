@@ -6,7 +6,7 @@
   loglimitAction: halt
   multipleExecutions: true
   timeout: 5m
-  name: hello-1
+  name: hello-2
   nodeFilterEditable: false
   options:
   - name: name
