@@ -1,6 +1,6 @@
 - description: hello world
   executionEnabled: true
-  group: hi
+  group: hi/bye
   loglevel: INFO
   name: hello
   nodeFilterEditable: false

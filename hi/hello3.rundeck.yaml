@@ -1,0 +1,22 @@
+- description: hello world
+  executionEnabled: true
+  group:
+  loglevel: INFO
+  name: hello3
+  nodeFilterEditable: false
+  options:
+  - name: name
+    value: bob
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: |-
+        #!/bin/bash
+
+        echo "Hello @option.name@"
+
+        echo "Goodbye"
+        echo "remote change..."
+    keepgoing: false
+    strategy: node-first
+
