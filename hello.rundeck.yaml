@@ -1,12 +1,12 @@
 - description: hello world
   executionEnabled: true
-  group: bla
+  group:
   loglevel: INFO
   loglimit: 10MB
   loglimitAction: halt
   multipleExecutions: true
   timeout: 5m
-  name: hello
+  name: hello-1
   nodeFilterEditable: false
   options:
   - name: name
