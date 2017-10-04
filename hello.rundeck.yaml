@@ -21,5 +21,6 @@
 
         echo "Goodbye"
         echo "remote change..."
+        echo "bla bla"
     keepgoing: false
     strategy: node-first
