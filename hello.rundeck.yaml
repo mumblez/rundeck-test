@@ -1,7 +1,11 @@
 - description: hello world
   executionEnabled: true
-  group: hi/bye
+  group: bla
   loglevel: INFO
+  loglimit: 10MB
+  loglimitAction: halt
+  multipleExecutions: true
+  timeout: 5m
   name: hello
   nodeFilterEditable: false
   options:
@@ -19,4 +23,3 @@
         echo "remote change..."
     keepgoing: false
     strategy: node-first
-
