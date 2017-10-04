@@ -18,6 +18,7 @@
 
         echo "Goodbye"
         echo "remote change..."
+        echo "under hi!!!"
     keepgoing: false
     strategy: node-first
 

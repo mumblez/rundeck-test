@@ -23,5 +23,7 @@
         echo "remote change..."
         echo "bla bla"
         echo "lsdkjflskdjflsf"
+        echo "lsdkjflskdjflsf"
+        echo "lsdkjflskdjflsf"
     keepgoing: false
     strategy: node-first
